@@ -1,5 +1,5 @@
-Interinstitutional Mobility Agreement Search API
-================================================
+Interinstitutional Agreement Search API
+=======================================
 
 * [What is the status of this document?][statuses]
 * [See the index of all other EWP Specifications][develhub]
@@ -8,10 +8,10 @@ Interinstitutional Mobility Agreement Search API
 Summary
 -------
 
-This document describes the **Interinstitutional Mobility Agreement Search
-API**. This API is implemented by the **EWP IMA Repository** only. All other
+This document describes the **Interinstitutional Agreement Search
+API**. This API is implemented by the **EWP IIA Repository** only. All other
 EWP partners will only be *using* it (not *serving* it). This API allows EWP
-partners to search through all agreements (IMAs) stored in the IMA Repository.
+partners to search through all agreements (IIAs) stored in the IIA Repository.
 
 
 Request method
@@ -34,7 +34,7 @@ the `application/x-www-form-urlencoded` format (for POST requests).
 ### `hei_id` (repeatable, optional)
 
 A list of institution identifiers. If given, then the results return MUST
-contain only these IMAs which are related to **all** of these institutions.
+contain only these IIAs which are related to **all** of these institutions.
 
 This parameter is *repeatable*, so the request MAY contain multiple occurrences
 of it. The server is REQUIRED to process all of them.
