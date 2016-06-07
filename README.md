@@ -33,7 +33,7 @@ the `application/x-www-form-urlencoded` format (for POST requests).
 
 ### `hei_id` (repeatable, optional)
 
-A list of institution identifiers. If given, then the results return MUST
+A list of institution identifiers. If given, then the results returned MUST
 contain only these IIAs which are related to **all** of these institutions.
 
 This parameter is *repeatable*, so the request MAY contain multiple occurrences
