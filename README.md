@@ -1,5 +1,5 @@
-Interinstitutional Agreement Search API
-=======================================
+OBSOLETE - Interinstitutional Agreement Search API
+==================================================
 
 * [What is the status of this document?][statuses]
 * [See the index of all other EWP Specifications][develhub]
@@ -7,6 +7,9 @@ Interinstitutional Agreement Search API
 
 Summary
 -------
+
+**OBSOLETE: This proposal was replaced by
+[IIAs API](https://github.com/erasmus-without-paper/ewp-specs-api-iias).**
 
 This document describes the **Interinstitutional Agreement Search
 API**. This API is implemented by the **EWP IIA Repository** only. All other
